@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 1em;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+
+#main {
+	background: white;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.header {
+	height: 100vh;
+	background-image: linear-gradient( 69.7deg,  rgba(244,37,243,1) 1.4%, rgba(244,87,1,1) 36.2%, rgba(255,204,37,1) 72.2%, rgba(20,196,6,1) 113% );
+	text-align: center;
+	color: white;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header h1 {
+	margin: 10px 0;
+}
+
+.header p {
+	text-shadow: 0 0 2px black;
+}
+
+.project {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	border-bottom: 1px solid #ebebeb;
+	background: white;
+
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+
+}
+
+	.project img {
+		height: 200px;
+	}
+
+	.project p {
+		max-width: 300px;
+		text-align: center;
+	}
+
+	.project h2 {
+		margin: 20px 0;
+	}
+
+	.project2, .project4 {
+		background: #74A6EE;
+		color: white;
+	}
